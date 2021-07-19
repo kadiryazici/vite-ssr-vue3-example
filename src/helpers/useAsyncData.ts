@@ -1,5 +1,5 @@
 import { useContext } from 'vite-ssr/vue';
-import { onMounted, onUnmounted, Ref, ref, getCurrentInstance, onDeactivated } from 'vue';
+import { onMounted, onUnmounted, Ref, ref, onDeactivated } from 'vue';
 import axios, { AxiosRequestConfig } from 'axios';
 
 interface Config {
@@ -10,7 +10,6 @@ interface Config {
     */
    awaitSetup: boolean;
 }
-
 export async function useAsyncData<T>(key: string, location: string, config?: Partial<Config>) {
    const { isClient, initialState } = useContext();
    //- craete a ref via initialState[key] value
