@@ -1,0 +1,10 @@
+{
+  "type": "commonjs",
+  "main": "main.js",
+  "ssr": {
+    "assets": [
+      "assets",
+      "favicon.ico"
+    ]
+  }
+}
