@@ -1,9 +1,3 @@
-<script lang="ts">
-export default {
-   middleWare: 'bruh'
-};
-</script>
-
 <script lang="ts" setup>
 import { useAsyncData } from '/src/helpers/useAsyncData';
 import Card from '/src/components/Card.vue';
@@ -25,7 +19,10 @@ interface Product {
 const productData = await useAsyncData<Product[]>(
    'productsData',
    'https://fakestoreapi.com/products/',
-   {}
+   {
+      axiosConfig: {},
+      awaitSetup: false
+   }
 );
 </script>
 
