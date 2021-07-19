@@ -29,13 +29,11 @@ export async function useAsyncData<T>(key: string, location: string, config?: Pa
    };
 
    // remove data from initialState when component unmounts or deactivates
-   onUnmounted(() => {
-      //- make sure that it is client
+   const removeState = () => {
       if (isClient) initialState[key] = null;
-   });
-   onDeactivated(() => {
-      if (isClient) initialState[key] = null;
-   });
+   };
+   onUnmounted(removeState);
+   onDeactivated(removeState);
 
    //- is this function running on server side
    if (!isClient) {
@@ -44,18 +42,12 @@ export async function useAsyncData<T>(key: string, location: string, config?: Pa
       //- if this function is running on client side
 
       //- if initialState[key] already exists mutate responseValue.value
-      if (initialState[key]) {
-         responseValue.value = initialState[key];
-      } else {
-         //- if inital state value does not exist fetch the data in onMounted hook.
-         const fn = async () => {
-            await handler('client');
-         };
-         if (config?.awaitSetup) {
-            await fn();
-         } else {
-            onMounted(fn);
-         }
+      if (initialState[key]) responseValue.value = initialState[key];
+      else {
+         //- if inital state value does not exist fetch the data in onMounted hook or block setup.
+         const fn = async () => await handler('client');
+         if (config?.awaitSetup) await fn();
+         else onMounted(fn);
       }
    }
 
