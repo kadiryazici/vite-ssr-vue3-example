@@ -2,8 +2,9 @@
    "version": "0.0.0",
    "scripts": {
       "dev": "vite-ssr --open",
-      "build": "vite-ssr build",
-      "start": "node ./_app/server/main.js"
+      "build": "vite-ssr build && bash scripts/vercelBuild.sh && pnpm deploy",
+      "start": "node ./_app/server/main.js",
+      "deploy": "cd ./serverless && vercel --prod"
    },
    "dependencies": {
       "@nuxt/devalue": "^2.0.0",

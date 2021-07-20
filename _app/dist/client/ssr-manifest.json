@@ -7,227 +7,230 @@
   "src/main.ts": [],
   "index.html": [],
   "node_modules/.pnpm/@vue+shared@3.1.5/node_modules/@vue/shared/dist/shared.esm-bundler.js": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/@vue+reactivity@3.1.5/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/@vue+runtime-core@3.1.5/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/@vue+runtime-dom@3.1.5/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/vue@3.1.5/node_modules/vue/dist/vue.runtime.esm-bundler.js": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.15/node_modules/@vue/devtools-api/lib/esm/env.js": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.15/node_modules/@vue/devtools-api/lib/esm/const.js": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.15/node_modules/@vue/devtools-api/lib/esm/api/api.js": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.15/node_modules/@vue/devtools-api/lib/esm/api/app.js": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.15/node_modules/@vue/devtools-api/lib/esm/api/component.js": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.15/node_modules/@vue/devtools-api/lib/esm/api/context.js": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.15/node_modules/@vue/devtools-api/lib/esm/api/hooks.js": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.15/node_modules/@vue/devtools-api/lib/esm/api/util.js": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.15/node_modules/@vue/devtools-api/lib/esm/api/index.js": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.15/node_modules/@vue/devtools-api/lib/esm/index.js": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/pinia@2.0.0-beta.5_typescript@4.3.5/node_modules/pinia/dist/pinia.esm-browser.js": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/@vueuse+head@0.6.0_vue@3.1.5/node_modules/@vueuse/head/dist/index.mjs": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/vue-router@4.0.10_vue@3.1.5/node_modules/vue-router/dist/vue-router.esm-bundler.js": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/vite-ssr@0.11.1_efbc154a6fc01c05f6cea5742a06f319/node_modules/vite-ssr/utils/route.js": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/vite-ssr@0.11.1_efbc154a6fc01c05f6cea5742a06f319/node_modules/vite-ssr/utils/state.js": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/vite-ssr@0.11.1_efbc154a6fc01c05f6cea5742a06f319/node_modules/vite-ssr/utils/defer.js": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/vite-ssr@0.11.1_efbc154a6fc01c05f6cea5742a06f319/node_modules/vite-ssr/utils/response.js": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/vite-ssr@0.11.1_efbc154a6fc01c05f6cea5742a06f319/node_modules/vite-ssr/vue/utils.js": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/vite-ssr@0.11.1_efbc154a6fc01c05f6cea5742a06f319/node_modules/vite-ssr/vue/components.js": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/vite-ssr@0.11.1_efbc154a6fc01c05f6cea5742a06f319/node_modules/vite-ssr/vue/entry-client.js": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
   ],
   "node_modules/.pnpm/@nuxt+devalue@2.0.0/node_modules/@nuxt/devalue/dist/devalue.mjs": [
-    "/assets/vendor.12afeb4f.js"
+    "/assets/vendor.4b985b3d.js"
+  ],
+  "src/stores/appStore.ts": [
+    "/assets/Home.f1d28d69.js"
   ],
   "src/pages/Home.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Home.807c0c10.js"
+    "/assets/Home.f1d28d69.js"
   ],
   "src/pages/Home.vue": [
-    "/assets/Home.807c0c10.js"
+    "/assets/Home.f1d28d69.js"
   ],
   "src/pages/Products.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Products.95dca4d7.js"
+    "/assets/Products.ff1bbdef.js"
   ],
   "src/pages/Products.vue": [
-    "/assets/Products.95dca4d7.js"
+    "/assets/Products.ff1bbdef.js"
   ],
   "\u0000A:/Desktop/VUE/vitessr/node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/axios.js?commonjs-module": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/helpers/bind.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/utils.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/helpers/buildURL.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/core/InterceptorManager.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/core/transformData.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/cancel/isCancel.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/helpers/normalizeHeaderName.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/core/enhanceError.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/core/createError.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/core/settle.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/helpers/cookies.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/helpers/isAbsoluteURL.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/helpers/combineURLs.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/core/buildFullPath.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/helpers/parseHeaders.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/helpers/isURLSameOrigin.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/adapters/xhr.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/defaults.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/core/dispatchRequest.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/core/mergeConfig.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/core/Axios.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/cancel/Cancel.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/cancel/CancelToken.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/helpers/spread.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/helpers/isAxiosError.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/lib/axios.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "node_modules/.pnpm/axios@0.21.1/node_modules/axios/index.js": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "src/helpers/useAsyncData.ts": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "src/components/Card.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "src/components/Card.vue?vue&type=style&index=0&scoped=true&lang.scss": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "src/components/Card.vue": [
-    "/assets/Card.43d002dd.js",
+    "/assets/Card.8536ee06.js",
     "/assets/Card.ad7a308c.css"
   ],
   "src/pages/Product.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Product.5f575f26.js"
+    "/assets/Product.e14191ea.js"
   ],
   "src/pages/Product.vue": [
-    "/assets/Product.5f575f26.js"
+    "/assets/Product.e14191ea.js"
   ]
 }

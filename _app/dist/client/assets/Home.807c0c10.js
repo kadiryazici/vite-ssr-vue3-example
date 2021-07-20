@@ -1,1 +1,0 @@
-import{d as e,u as t,o as a,c as s}from"./vendor.12afeb4f.js";const o={class:"text-center"};var r=e({setup:e=>(t({title:"Home"}),(e,t)=>(a(),s("div",o,"Vite SSR Example Project")))});export default r;

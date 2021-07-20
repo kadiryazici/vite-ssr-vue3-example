@@ -163,6 +163,9 @@ small {
 .cursor-pointer {
   cursor: pointer;
 }
+.block {
+  display: block;
+}
 .inline {
   display: inline;
 }
@@ -480,9 +483,9 @@ const viteSSR = function viteSSR2(App, { routes: routes2, base, routerOptions = 
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
-  <script type="module" crossorigin src="/assets/index.ecba1995.js"><\/script>
-  <link rel="modulepreload" href="/assets/vendor.12afeb4f.js">
-  <link rel="stylesheet" href="/assets/index.90bc7785.css">
+  <script type="module" crossorigin src="/assets/index.0cf4e35f.js"><\/script>
+  <link rel="modulepreload" href="/assets/vendor.4b985b3d.js">
+  <link rel="stylesheet" href="/assets/index.927d3afd.css">
 ${headTags}
 </head>
   <body ${bodyAttrs} >
@@ -610,7 +613,7 @@ const Options = {
   }
 };
 var main = viteSSR(_sfc_main$4, Options, (params) => __async(this, null, function* () {
-  const { app, initialState, isClient } = params;
+  const { app, initialState, isClient, router } = params;
   const head$1 = head.createHead();
   const pinia$1 = pinia.createPinia();
   app.use(pinia$1).use(head$1);
@@ -623,14 +626,24 @@ var main = viteSSR(_sfc_main$4, Options, (params) => __async(this, null, functio
     head: head$1
   };
 }));
+const useAppStore = pinia.defineStore({
+  id: "appStore",
+  state: () => ({
+    dataFrom: "client"
+  })
+});
 var _sfc_main$3 = vue.defineComponent({
   __ssrInlineRender: true,
   setup(__props) {
+    const appStore = useAppStore();
     head.useHead({
       title: "Home"
     });
+    vue.onServerPrefetch(() => {
+      appStore.dataFrom = "server";
+    });
     return (_ctx, _push, _parent, _attrs) => {
-      _push(`<div${serverRenderer.ssrRenderAttrs(vue.mergeProps({ class: "text-center" }, _attrs))}>Vite SSR Example Project</div>`);
+      _push(`<!--[--><div class="text-center">Vite SSR Example Project</div><div>Message From: ${serverRenderer.ssrInterpolate(vue.unref(appStore).dataFrom)}</div><!--]-->`);
     };
   }
 });
@@ -660,21 +673,25 @@ function useAsyncData(key, location, config) {
         throw error;
       }
     });
-    if (!(config == null ? void 0 : config.keep)) {
-      vue.onUnmounted(() => {
-        if (isClient)
-          initialState[key] = null;
-      });
-    }
+    const removeState = () => {
+      if (isClient)
+        initialState[key] = null;
+    };
+    vue.onUnmounted(removeState);
+    vue.onDeactivated(removeState);
     if (!isClient) {
       yield handler("server");
     } else {
-      if (initialState[key]) {
+      if (initialState[key])
         responseValue.value = initialState[key];
-      } else {
-        vue.onMounted(() => __async(this, null, function* () {
-          yield handler("client");
-        }));
+      else {
+        const fn = () => __async(this, null, function* () {
+          return yield handler("client");
+        });
+        if (config == null ? void 0 : config.awaitSetup)
+          yield fn();
+        else
+          vue.onMounted(fn);
       }
     }
     return responseValue;
@@ -734,7 +751,10 @@ var _sfc_main$1 = vue.defineComponent({
       head.useHead({
         title: "Products"
       });
-      const productData = ([__temp, __restore] = vue.withAsyncContext(() => useAsyncData("productsData", "https://fakestoreapi.com/products/")), __temp = yield __temp, __restore(), __temp);
+      const productData = ([__temp, __restore] = vue.withAsyncContext(() => useAsyncData("productsData", "https://fakestoreapi.com/products/", {
+        axiosConfig: {},
+        awaitSetup: false
+      })), __temp = yield __temp, __restore(), __temp);
       return (_ctx, _push, _parent, _attrs) => {
         _push(`<div${serverRenderer.ssrRenderAttrs(vue.mergeProps({ class: "flex flex-row flex-wrap px-10 justify-center" }, _attrs))}>`);
         if (vue.unref(productData)) {
@@ -772,7 +792,7 @@ var _sfc_main = vue.defineComponent({
       var _a, _b, _c;
       let __temp, __restore;
       const route = vueRouter.useRoute();
-      const productData = ([__temp, __restore] = vue.withAsyncContext(() => useAsyncData("productsData", `https://fakestoreapi.com/products/${route.params.id}`)), __temp = yield __temp, __restore(), __temp);
+      const productData = ([__temp, __restore] = vue.withAsyncContext(() => useAsyncData(`product-${route.params.id || "data"}`, `https://fakestoreapi.com/products/${route.params.id}`)), __temp = yield __temp, __restore(), __temp);
       head.useHead({
         meta: [
           { name: "og:description", content: (_a = productData.value) == null ? void 0 : _a.description },
