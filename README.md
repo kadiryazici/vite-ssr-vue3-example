@@ -10,6 +10,12 @@ To start production server run `npm run start` or `yarn/pnpm start`
 
 [Visit Vercel Demo](https://vercelvitessr.vercel.app/)
 
+# SSR
+
+### Thanks to ssr we can have meta tags that helps us to make better SEO.
+
+![discord meta](readme/discord-meta.png)
+
 ### VERCEL_URL ENV Variable
 
 Add deployed website's hostname as env. **this project**: `vercelvitessr.vercel.app`
