@@ -12,13 +12,13 @@ globalThis.fetch = require('node-fetch');
  * @param {IncomingMessage} req
  * @param {ServerResponse} res
  */
-module.exports = async (req, res) => {
+module.exports = async (request, response) => {
    try {
       const protocol = req.protocol || (req.headers.referer || '').split(':')[0] || 'http';
       const host = process.env.VERCEL_URL;
       const url = protocol + '://' + host + req.url;
 
-      const { html } = await render(url, { manifest, preload: true });
+      const { html } = await render(url, { manifest, preload: true, request, response });
 
       res.statusCode = 200;
       res.setHeader('Content-Type', 'text/html');
