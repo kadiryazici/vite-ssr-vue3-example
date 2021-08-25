@@ -3,7 +3,6 @@ import 'virtual:windi.css';
 import { createPinia } from 'pinia';
 import { createHead } from '@vueuse/head';
 import { viteSSR } from 'vite-ssr/vue';
-import devalue from '@nuxt/devalue';
 
 import { routes } from '/src/router/router';
 
@@ -14,9 +13,6 @@ const Options: Parameters<typeof viteSSR>['1'] = {
    pageProps: {
       passToPage: false
    },
-   transformState(state) {
-      return import.meta.env.SSR ? devalue(state) : state;
-   }
 };
 
 export default viteSSR(App, Options, async (params) => {
